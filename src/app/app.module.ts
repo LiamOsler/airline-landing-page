@@ -17,6 +17,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogContentExampleDialogComponent } from './dialog-content-example-dialog/dialog-content-example-dialog.component';
 
 
 
@@ -27,7 +29,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     AppComponent,
     CheckInComponent,
     BookFlightComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    DialogContentExampleDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +44,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatInputModule,
     MatToolbarModule,
     MatIconModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
