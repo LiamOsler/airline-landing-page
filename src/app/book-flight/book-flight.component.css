@@ -1,0 +1,19 @@
+.mat-card-actions{
+    display: block;
+    text-align: right;
+}
+
+.example-form {
+  }
+
+.example-full-width {
+    width: 38%;
+}
+
+.example-narrow {
+    width: 24%;
+}
+
+td {
+padding-right: 8px;
+}

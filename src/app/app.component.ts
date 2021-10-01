@@ -16,4 +16,6 @@ import { CheckInComponent } from './check-in/check-in.component';
 })
 export class AppComponent {
   title = 'airline-website';
+    panelOpenState = false;
+
 }

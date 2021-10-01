@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+mat-toolbar{
+    margin-bottom: -.6em;
+
+}
+
+.example-header-image{
+    margin-right: .5em;
+}

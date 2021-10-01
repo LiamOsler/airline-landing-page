@@ -1,0 +1,28 @@
+mat-card{
+    background-color: goldenrod;
+    margin-top: 0;
+    background-image: url("https://i.ytimg.com/vi/Q-9Yew_ztjM/maxresdefault.jpg");
+    background-size:cover;
+    color: white;
+    border-radius: 0;
+    height: 22vh;
+}
+
+mat-card-title{
+
+}
+
+mat-card-actions{
+    text-align: right;
+}
+
+
+mat-card-content{
+    height: 10vh;
+}
+
+#checkin{
+    background-color: white;
+    color: #673AB7;
+    margin-right: 1em;
+}

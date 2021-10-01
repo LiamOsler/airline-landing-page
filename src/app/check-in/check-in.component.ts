@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./check-in.component.css']
 })
 export class CheckInComponent{
+  panelOpenState = false;
+
+
   step = 0;
 
   setStep(index: number) {
